@@ -1,0 +1,3 @@
+//-- representa a branch atual, --amend estou pegando o ultimo commit da branch atual e alterando
+
+git commit --amend -m "Arquivo para simular a funcionalidade de desfazer commit"

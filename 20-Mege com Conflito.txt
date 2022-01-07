@@ -1,0 +1,8 @@
+
+//Abortar o merge em caso de conflito ou posso abrir o arquivo e excluir uma das partes em conflito
+git merge --abort
+
+
+se for pela parte de resolver o conflito manualmente,dps que abrir o arquivo
+da um git add .
+git commit -m "Conflito Resolvido"

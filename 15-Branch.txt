@@ -1,0 +1,34 @@
+//forma de visualizar o log melhor
+git log --oneline
+
+
+// ve todos os arquivos de branch
+ls -la .git/refs/heads
+
+//ve o ultimo commit dessa branch
+cat .gt/refs/heads/experimentos
+
+
+//git branch cria uma ramificaçao, ou seja, uma copia de todo o meu repositorio para que possa trabalhar a vontade sem que possa afetar a ramificaçao master
+
+git branch experimentos
+ou
+git checkout -b experimentos
+
+
+
+//para alterar de branch
+git checkout experimentos
+
+
+
+----*
+Se eu fizer uma modificaçao na branch experimentos e dps mover para staged area e der um commit, vou observar que o ultimo commit
+da branch experimentos é diferente da branch master, ou seja quando eu criou uma branch separada eu tenho uma liberdade pra trabalhar em cima do código de forma despreocupada sem afetar o codigo principal
+inclusive eu posso voltar para a branch master e ver q o arquivo n foi alterado.
+E quando chegar num momento que achar q as alteraçoes estao corretas eu posso voltar para minha branch master e fazer um merge para que eu possa reconciliar essas duas branches
+*-----
+
+
+
+

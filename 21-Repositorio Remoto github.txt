@@ -1,0 +1,10 @@
+
+//repositorio remoto
+git remote
+
+//adicionar o repositorio remoto
+git remote add origin https://github.com/lucasmartinsgui/projetoFatorial.git
+
+
+//remove um repositorio remoto 
+git remote rm origin

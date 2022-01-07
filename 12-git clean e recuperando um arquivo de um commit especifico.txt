@@ -1,0 +1,11 @@
+//verifica os arquivos que serão removidos e os arquivos q estao no staged area nao serao removidos
+git clean -n
+
+//remove os arquivos
+git clean -f
+
+// recuperando um arquivo de um commit especifico ele vem para dentro da sua staged area
+git checkout 0b8d9f7d --Fatorial.java
+
+e ai vc pode fazer um  git diff --staged 
+ 

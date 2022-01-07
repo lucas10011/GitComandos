@@ -1,0 +1,10 @@
+// altera a mensagem do ultimo commit
+git commit --amend
+
+
+// renomear um arquivo
+git mv TesteFatorial TesteFatorialRenomeado.java
+
+
+//mover arquivo
+git mv TesteFatorial teste/TesteFatorialRenomeado.java

@@ -1,0 +1,7 @@
+
+//criando uma branch
+git branch branch_para_remocao
+
+//removendo uma branch
+//Nao é possivel remover uma branch se vc estiver nela
+git branch -d branch_para_remocao

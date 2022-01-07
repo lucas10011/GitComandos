@@ -1,0 +1,13 @@
+para visualizar os commits
+
+git log master --oneline -3
+git log calculo_fatorial_zero --oneline -3
+
+
+//Estando na master ou na branch que vc quer dar merge, ou seja vc tem q estar na branch de destino, vc coloca o nome da branch que vc quer unir a esta
+//Estando na master por exemplo daria um merge calculo_fatorial_zero para uni-la a master
+git merge calculo_fatorial_zero
+
+//e ai vc pode fazer um git diff master..calculo_fatorial_zero para visualizar se tem alguma diferença ainda
+
+

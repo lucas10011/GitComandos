@@ -1,0 +1,13 @@
+
+//comparando conteudo de 2 branches
+git diff master..experimentos
+
+git diff fatorial_recursivo..experimentos
+
+//comando para ver tudo q a branch tem das outras branch
+git branch --merged 
+
+
+
+//renomeando uma branch
+git branch --move experimentos calculo_fatorial_zero

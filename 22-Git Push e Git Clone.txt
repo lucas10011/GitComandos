@@ -1,0 +1,11 @@
+/// caso for primeiro push
+
+git push -u origin master
+
+
+//permite enviar change sets para um repositório, passando o nome branch 
+git push -u master
+
+
+//permite obter uma versão do projeto a partir de um respositório remoto.
+git clone https://github.com/lucasmartinsgui/projetoFatorial.git projetoFatorialFulano

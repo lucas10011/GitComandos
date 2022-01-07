@@ -1,0 +1,13 @@
+/// restaura uma versao do repositório sem alterar a branch atual vamos colocar a --
+git checkout -- Fatorial.java
+git checkout --TesteFatorial.java
+
+
+---*git checkout => restaura uma versao do repositorio para a area de trabalho*---
+---*git add => adiciona para staged area*---
+---*git commit => adiciona do stage area para a versao do repositorio*---
+
+////faz un unstaged do arquivo no staged area ou seja, ele retira os arquivos do stagedarea
+git reset Head Fatorial.java
+
+

@@ -1,0 +1,3 @@
+
+//Caso remova um arquivo eu tenho q passar o git rm pra passar a remoçao pro staged area pra depois commitar
+git rm TesteFatorialRecursivo.java

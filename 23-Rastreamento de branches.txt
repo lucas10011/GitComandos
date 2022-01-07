@@ -1,0 +1,5 @@
+
+Depois que fizer uma alteraçao local vc pode usar esse comando para verificar o commit entre as duas e dps fazer um push
+
+git log --oneline
+git log --oneline origin/master

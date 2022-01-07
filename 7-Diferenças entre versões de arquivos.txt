@@ -1,0 +1,9 @@
+
+// vai pegar todos arquivos no repositorio e na area de trabalho e fazer uma diferenciação e exibir
+git diff
+
+//vai pegar apenas um arquivo e fazer a diferenciação 
+git diff TesteFatorial.java
+
+//ele pega os arquivos no staged area e faz a diferenciação 
+git diff --staged

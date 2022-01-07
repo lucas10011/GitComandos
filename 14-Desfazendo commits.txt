@@ -1,0 +1,4 @@
+---* quando vc fazia o mixed a versao do repositorio era colocado no staged area ou era colocado de forma nao commitado dentro do diretorio de trabalho
+
+git reset --hard 98e48
+git commit -am "" 

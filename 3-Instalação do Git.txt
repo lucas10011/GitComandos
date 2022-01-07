@@ -1,0 +1,10 @@
+
+//Altera as configuraçoes do git
+git config --global user.name "Lucas Martins Guimarães"
+git config --global user.email "lucas_10011@hotmail.com"
+git config --global core.editor "notepad.exe"
+git config --global color.ui true
+
+//Lista todas as minhas configurações
+git config --list
+

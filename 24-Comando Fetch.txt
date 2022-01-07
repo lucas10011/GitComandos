@@ -1,0 +1,22 @@
+//Fetch ele faz basicamente é sincronizar com as branches remotas com quem estiver dentro do meu repositório, pois nao é um sincronismo automatico
+//Um exemplo se vc fez um fetch a 1 semana atras e alguem criou uma nova branch essa semana, vc precisa usar o fetch novamente para visualizar essa nova branch
+
+git fetch origin
+
+//porem localmente ainda nao temos essa branch apenas no repositorio remoto
+//tanto é que se vc utilziar git branch ela nao aparecerá, mas se utilizar o comando git branch -r ela aparecerá
+
+
+
+--*origin/master é uma branch remota e nao podemos fazer um checkout direto dela entao por isso fazemos o fetch origin para pegar todas as modificaçoes dela e dps passar para branch master local
+
+ou seja vc esta fazendo um sincronismo com sua origins/master e dps passando para a master local
+
+git fetch origin
+git merge origin/master master
+ou 
+git pull 
+
+
+//vou criar uma branch local com conteudo da branch remota
+git branch sem_sincronismo origins/sem_sincronismo

@@ -1,0 +1,26 @@
+
+// Esse comando inicia o repositório  
+git init
+
+//Esse comando ignora arquivos com certas extensões no controle de versão
+notepad .gitignore
+
+
+// indica que tudo q tenho nesse meu diretório eu quero incluir no sistema de controle de versão
+git add .
+
+// indica um unico arquivo pra incluir no sistema de controle de versao
+git add Fatorial.java
+
+
+----**O git é baseado em 2 fases, primeiro nós adicionamos numa area intermediária chamada state area pra depois fazermos o commit propriamente dito *--
+
+//esse comando é pra visualizar os arquivos que estao nessa area intermediaria esperando para ser commitados
+git status
+
+
+//Commit é o comando pra enviar a alteração junto a uma mensagem
+git commit -m "Criaçao da primeira versao da classe Fatorial"
+
+// mostra o historio desses commit
+git log --author="Rodrigo"

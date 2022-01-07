@@ -1,0 +1,17 @@
+
+
+//soft => vamos apenas mover o ponteiro head e nao vamos alterar nada na minha area staged e nem na minha area de trabalho
+//mixed =>  alterar area staged para coincidir com o repositorio
+//hard => altera staged area e altera diretorio de trabalho pra ficar identico ao repositorio pra versao apontada pelo ponteiro head
+
+
+//desloca o ponteiro head para algum ponto especifico
+// por exemplo se vc criou um arquivo e fez um commit ele vai criar um log e mover o head para esse ultimo commit,se deslocar esse head para penultimo  checksum do log, ele vai mostrar q nao tem esse arquivo no repositorio
+git reset --soft 2ebd4
+
+
+---* Se eu deslocar o ponteiro do commit, quando lançar novos commits ele vai sobreescrever os commitas que estao acima dele por isso que é perigoso, pra evitar isso eu posso voltar de novo para o ultimo commit, o primeiro que estava na pilha
+
+
+///mixed semelhante a soft porem o staged area fica sincronizada com repositorio
+git reset --mixed 2ebd4
